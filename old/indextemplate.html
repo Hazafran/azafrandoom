@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<style>
+
+    body {
+
+        background-color: #008081;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #leftwindow {
+
+        background-color: #c0c0c0;
+        border-style: outset;
+        border-width: 1px;
+        box-shadow: 1px 1px 0 0 black;
+        width: 200px;
+        height: 600px;
+
+    }
+
+    #mainwindow {
+
+        background-color: #c0c0c0;
+        border-style: outset;
+        border-width: 1px;
+        box-shadow: 1px 1px 0 0 black;
+        width: 800px;
+        height: 600px;
+        margin: 0 0 0 10px;
+
+    }
+
+    .windowhead {
+
+        font-family: sans-serif;
+        font-size: 13px;
+        color: white;
+        background-color: #010080;
+        margin: 1px;
+        padding: 2px 5px 2px 5px;
+
+    }
+
+    .windowbody {
+
+        font-family: sans-serif;
+        font-size: 13px;
+        color: black;
+        padding: 0px 10px 10px 10px;
+
+    }
+
+    .windowbody p {
+
+        text-align: justify;
+
+    }
+
+    .windowbutton {
+
+        border: 1px outset;
+        outline: 1px solid black;
+        box-shadow: 1px 1px 0 1px black;
+        padding: 0;
+        margin-top: 10px;
+
+    }
+
+    .windowbutton p {
+
+        border: 1px dotted black;
+        margin: 2px;
+        padding: 2px;
+        text-align: center;
+
+    }
+
+    .windowbutton:hover {
+
+        background-color: #b4b4b4;
+
+    }
+
+    .windowbutton:active {
+
+        border: 1px inset;
+        box-shadow: 1px 1px 0 1px transparent;
+
+    }
+
+    .windowtext {
+
+        height: 89%;
+        background-color: white;
+        margin: 4px;
+        padding: 10px;
+        outline: 1px inset rgb(255, 255, 255);
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+
+    }
+
+    .windowtext p {
+
+        font-family: serif;
+        font-size: 20px;
+
+    }
+
+
+</style>
+
+<html>
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Win95</title>
+
+    </head>
+
+    <body>
+
+        <div id="leftwindow">
+            <div class="windowhead"><b>Navigation</b></div>
+            <div class="windowbody">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore libero et molestias labore totam, soluta distinctio possimus amet voluptate eos adipisci nesciunt voluptatum ratione? Adipisci nesciunt saepe dolore tempore harum.</p>
+                <div class="windowbutton"><p>Home</p></div>
+                <div class="windowbutton"><p>Blog</p></div>
+                <div class="windowbutton"><p>Gallery</p></div>
+                <div class="windowbutton"><p>About</p></div>
+            </div>
+
+
+        </div>
+
+        <div id="mainwindow">
+            <div class="windowhead"><b>Content</b></div>
+            <div class="windowtext">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sunt consequuntur, voluptatem iusto architecto magnam, voluptatum est ea dolores rerum blanditiis vitae neque similique ipsum accusamus ipsa ab odit voluptas!</p>
+            </div>
+        </div>
+
+
+
+    </body>
+
+</html>

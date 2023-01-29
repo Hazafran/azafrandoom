@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<style>
+
+    body {
+
+        background-color: #008081;
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+
+    }
+	
+	footer {
+	
+		text-align: center;
+		font-size: 14px;
+	
+	}
+
+    #menuwindow {
+
+        background-color: #c0c0c0;
+        border-style: outset;
+        border-width: 1px;
+        box-shadow: 1px 1px 0 0 black;
+        width: 600px;
+		position: sticky;
+		top: 20px;
+
+    }
+
+    #mainwindow {
+
+        background-color: #c0c0c0;
+        border-style: outset;
+        border-width: 1px;
+        box-shadow: 1px 1px 0 0 black;
+        width: 800px;
+        margin: 10px 0 0 0;
+
+    }
+	
+	.gallery {
+	
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	
+	}
+	
+
+
+    .windowhead {
+
+        font-family: sans-serif;
+        font-size: 13px;
+        color: white;
+        background-color: #010080;
+        margin: 1px;
+        padding: 2px 5px 2px 5px;
+
+    }
+	
+    .windowtext0 {
+
+        font-family: sans-serif;
+        font-size: 13px;
+        color: black;
+        padding: 0px 10px 0px 10px;
+
+    }	
+
+    .windowbody {
+
+        font-family: sans-serif;
+        font-size: 13px;
+        color: black;
+        padding: 0px 10px 10px 10px;
+		display: flex;
+		flex-direction: row;
+		align-content: stretch;
+
+    }
+	
+	.windowbody a {
+	
+		align-content: stretch;
+		text-decoration: none;
+		color: black;
+	
+	}
+
+    .windowbody p {
+
+        text-align: justify;
+
+    }
+
+    .windowbutton {
+
+        border: 1px outset;
+        outline: 1px solid black;
+        box-shadow: 1px 1px 0 1px black;
+        padding: 0;
+        margin: 10px;
+		flex-grow: 1;
+
+    }
+
+    .windowbutton p {
+
+        border: 1px dotted black;
+        margin: 2px;
+        padding: 2px;
+        text-align: center;
+
+    }
+
+    .windowbutton:hover {
+
+        background-color: #b4b4b4;
+
+    }
+
+    .windowbutton:active {
+
+        border: 1px inset;
+        box-shadow: 1px 1px 0 1px transparent;
+
+    }
+
+    .windowtext {
+
+        height: 89%;
+        background-color: white;
+        margin: 4px;
+        padding: 10px;
+        outline: 1px inset rgb(255, 255, 255);
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+
+    }
+
+    .windowtext p {
+
+        font-family: serif;
+        font-size: 20px;
+
+    }
+
+	.gallery-pic {
+	
+		display: flex;
+		flex-direction: column;
+		max-width: 150px;
+	
+	}
+	
+	.gallery-pic p {
+	
+		font-size: 14px;
+		text-align: justify;
+		text-align-last: center;
+	
+	}
+
+</style>
+
+<html>
+
+	<head>
+		<title>Azafran's Doom™ homepage</title>
+	</head>
+
+	<header>
+		<h1>Azafran's DOOM™ homepage.</h1> <!-- Replace with logo at some point -->
+	
+	</header>
+
+	<body>
+		
+		<div id="menuwindow">
+            <div class="windowhead"><b>Navigation</b></div>
+			<div class="windowtext0">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore libero et molestias labore totam, soluta distinctio possimus amet voluptate eos adipisci nesciunt voluptatum ratione? Adipisci nesciunt saepe dolore tempore harum.</p>
+			</div>
+            <div class="windowbody">                
+                <div class="windowbutton"><a href="#Blog"><p>Blog</p></a></div>
+                <div class="windowbutton"><p>Posters</p></div>
+                <div class="windowbutton"><p>WADs</p></div>
+                <div class="windowbutton"><p>About</p></div>
+            </div>
+        </div>
+	
+		<div id="mainwindow">
+            <div class="windowhead" id="Blog"><b>Blog</b></div>
+            <div class="windowtext">
+                <p>Probando a escribir un párrafo.</p>
+				
+            </div>
+			
+        </div>
+		
+		<div id="mainwindow">
+            <div class="windowhead"><b>Posters</b></div>
+            <div class="windowtext">
+				<p>Upscaled and restored Doom™ posters with a resolution high enough to print.</p>
+				<div class="gallery">
+					<div class="gallery-pic">
+						<img src="./pics/ultimate-doom.jpg" alt="The Ultimate Doom poster.">
+						<p>Doom art with no logo.<br> 4800x6933 px. Print size (at 300 dpi): 40.6x58.7 cm or 16.00x23.11 inches.<br><a href="./pics/poster.tiff">Download (52.20 MB).</a></p>
+					</div>
+					<div class="gallery-pic">
+						<img src="./pics/doom2.jpg" alt="Doom 2 poster.">
+						<p>Doom art with no logo.<br> 4800x6933 px. Print size (at 300 dpi): 40.6x58.7 cm or 16.00x23.11 inches.<br><a href="./pics/poster.tiff">Download (52.20 MB).</a></p>
+					</div>
+					<div class="gallery-pic">
+						<img src="./pics/doom1-nologo.jpg" alt="Doom 1 poster with no logo.">
+						<p>Doom art with no logo.<br> 4800x6933 px. Print size (at 300 dpi): 40.6x58.7 cm or 16.00x23.11 inches.<br><a href="./pics/poster.tiff">Download (52.20 MB).</a></p>
+					</div>
+					<div class="gallery-pic">
+						<img src="./pics/doom2-nologo.jpg" alt="Doom 2 poster with no logo.">
+						<p>Doom art with no logo.<br> 4800x6933 px. Print size (at 300 dpi): 40.6x58.7 cm or 16.00x23.11 inches.<br><a href="./pics/poster.tiff">Download (52.20 MB).</a></p>
+					</div>
+				</div>
+					
+            </div>
+        </div>
+		
+		<div id="mainwindow">
+            <div class="windowhead"><b>WADs</b></div>
+            <div class="windowtext">
+                <p>Probando a escribir un párrafo.</p>
+				<p>Upscaled and restored Doom™ posters with a resolution high enough to print.</p>
+				<img src="./pics/doom1-nologo.png" alt="Doom 1 poster with no logo.">
+            </div>
+        </div>
+		
+		<div id="mainwindow">
+            <div class="windowhead"><b>About</b></div>
+            <div class="windowtext">
+                <p>Probando a escribir un párrafo.</p>
+				
+            </div>
+        </div>
+		
+	</body>
+	
+	<footer>
+		<p>©2023 By Azafran.<br><a href="mailto:azafranart@gmail.com">azafranart@gmail.com</a></p>
+	</footer>
+	
+</html>
