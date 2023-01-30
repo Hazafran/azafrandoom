@@ -66,6 +66,7 @@
 		margin: 0px 10px 10px 10px;		
         width: 50vw;
 		min-width: 300px;
+		max-width: 1000px;
 	}
 	.rightcolumn {
 		margin: 10px 0 0 0;
@@ -198,6 +199,32 @@
 		text-align-last: center;
 	
 	}
+	
+	@media screen and (max-width: 800px) {
+	
+		.rightcolumn {
+			display: none;
+		}
+		
+		.leftcolumn {
+			width: 90vw;
+		}
+		
+		.centercolumn {
+			width: 90vw;
+		}
+		
+		.main {
+			flex-direction: column;
+			align-items: center;
+			
+		}
+		
+		.windowbody {
+			flex-direction: row;
+		}
+	
+	}
 
 </style>
 
@@ -279,7 +306,7 @@
 				<div id="mainwindow">
 					<div class="windowhead" id="About"><b>About</b></div>
 					<div class="windowtext">
-						<p>Hello, my name is Carlos, also known as Azafran in the internet. I'm a graphic designer and illustrator (I mainly design t-shirts) and a 90s nostalgic. You can find my work <a href="https://www.instagram.com/azafranart">here.</a>
+						<p>Hello, my name is Carlos, also known as Azafran in the internet. I'm a graphic designer and illustrator (I mainly design t-shirts) and a 90s nostalgic.<br> You can find my work <a href="https://www.instagram.com/azafranart">here.</a>
 						This site is just a fun project to practice with HTML and publish my Doom™ stuff in a retro manner (it reminds me of my frontpage days!). The page is carefully designed to weight as little as possible, so it loads fast and easy. </p>
 						
 					</div>
