@@ -1,0 +1,239 @@
+	html {
+		display: flex;
+		flex-direction: column;
+	}
+
+	header {
+
+	text-align: center;
+		
+	}
+
+    body {
+
+        background-color: #008081;
+
+    }
+	
+	footer {
+	
+		text-align: center;
+		font-size: 14px;
+	
+	}
+
+    #menuwindow {
+
+        background-color: #c0c0c0;
+        border-style: outset;
+        border-width: 1px;
+        box-shadow: 1px 1px 0 0 black;
+		position: sticky;
+		top: 20px;
+		margin: 10px 0 0 0;
+
+    }
+
+    #mainwindow {
+
+        background-color: #c0c0c0;
+        border-style: outset;
+        border-width: 1px;
+        box-shadow: 1px 1px 0 0 black;
+        margin: 10px 0 0 0;
+
+    }
+	
+	.main {
+	
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	
+	}
+	
+	.leftcolumn {
+	
+		width: 12vw;
+		min-width: 150px;
+		
+	
+	}
+	.centercolumn {
+	
+		margin: 0px 10px 10px 10px;		
+        width: 50vw;
+		min-width: 300px;
+		max-width: 1000px;
+	}
+	.rightcolumn {
+		margin: 10px 0 0 0;
+		width: 160px;
+	}
+	
+	
+	.gallery {
+	
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	
+	}
+	
+
+
+    .windowhead {
+
+        font-family: sans-serif;
+        font-size: 13px;
+        color: white;
+        background-color: #010080;
+        margin: 1px;
+        padding: 2px 5px 2px 5px;
+
+    }
+	
+    .windowtext0 {
+
+        font-family: sans-serif;
+        font-size: 13px;
+        color: black;
+        padding: 0px 10px 0px 10px;
+
+    }	
+
+    .windowbody {
+
+        font-family: sans-serif;
+        font-size: 13px;
+        color: black;
+        padding: 0px 10px 10px 10px;
+		display: flex;
+		flex-direction: column;
+		align-content: stretch;
+
+    }
+	
+	.windowbody a {
+	
+		align-content: stretch;
+		text-decoration: none;
+		color: black;
+	
+	}
+
+    .windowbody p {
+
+        text-align: justify;
+
+    }
+
+    .windowbutton {
+
+        border: 1px outset;
+        outline: 1px solid black;
+        box-shadow: 1px 1px 0 1px black;
+        padding: 0;
+        margin: 10px;
+		flex-grow: 1;
+		
+	}
+		
+	.visitcounter {
+		
+		text-align: center;
+		margin-top: 10px;
+		position: sticky;
+		top: 321px;
+	
+	}
+
+
+
+    .windowbutton p {
+
+        border: 1px dotted black;
+        margin: 2px;
+        padding: 2px;
+        text-align: center;
+
+    }
+
+    .windowbutton:hover {
+
+        background-color: #b4b4b4;
+
+    }
+
+    .windowbutton:active {
+
+        border: 1px inset;
+        box-shadow: 1px 1px 0 1px transparent;
+
+    }
+
+    .windowtext {
+
+        height: 89%;
+        background-color: white;
+        margin: 4px;
+        padding: 10px 20px 10px 20px;
+        outline: 1px inset rgb(255, 255, 255);
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+
+    }
+
+    .windowtext p {
+
+        font-family: serif;
+        font-size: 20px;
+
+    }
+
+	.gallery-pic {
+	
+		display: flex;
+		flex-direction: column;
+		max-width: 150px;
+		margin: 0 5px 0 5px;
+	
+	}
+	
+	.gallery-pic p {
+	
+		font-size: 14px;
+		text-align: justify;
+		text-align-last: center;
+	
+	}
+	
+	@media only screen and (max-width: 800px) {
+	
+		.rightcolumn {
+			display: none;
+		}
+		
+		.leftcolumn {
+			width: 90vw;
+		}
+		
+		.centercolumn {
+			width: 90vw;
+		}
+		
+		.main {
+			flex-direction: column;
+			align-items: center;
+			
+		}
+		
+		.windowbody {
+			flex-direction: row;
+		}
+	
+		.visitcounter {
+			display: none;
+		}
+	}
