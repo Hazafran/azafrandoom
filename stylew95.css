@@ -25,8 +25,7 @@
     #menuwindow {
 
         background-color: #c0c0c0;
-        border-style: outset;
-        border-width: 1px;
+        border: 1px outset white;
         box-shadow: 1px 1px 0 0 black;
 		position: sticky;
 		top: 20px;
@@ -37,8 +36,7 @@
     #mainwindow {
 
         background-color: #c0c0c0;
-        border-style: outset;
-        border-width: 1px;
+        border: 1px outset white;
         box-shadow: 1px 1px 0 0 black;
         margin: 10px 0 0 0;
 
@@ -131,7 +129,7 @@
 
     .windowbutton {
 
-        border: 1px outset;
+        border: 1px outset white;
         outline: 1px solid black;
         box-shadow: 1px 1px 0 1px black;
         padding: 0;
